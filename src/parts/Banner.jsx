@@ -1,8 +1,8 @@
 const Banner = () => {
 	return (
 		<>
-			<div className="h-screen bg-primary p-4">
-				<div className="bg-white w-full h-full">
+			<div className="h-screen p-4 bg-primary">
+				<div className="w-full h-full bg-white">
 					<div className="relative">
 						<img
 							src={`${import.meta.env.VITE_BASE_URL}/images/bg-banner.png`}
@@ -12,26 +12,30 @@ const Banner = () => {
 							<img
 								src={`${import.meta.env.VITE_BASE_URL}/images/r&b-gray.png`}
 								alt="Rani & Bimo"
-								className="h-28 object-contain mx-auto mb-8"
+								className="object-contain mx-auto mb-8 h-28"
 							/>
-							<p className="text-center font-ogilvy text-sm">
+							<p className="text-sm text-center font-ogilvy">
 								UNDANGAN PERNIKAHAN
 							</p>
-							<p className="font-bold text-primary text-center text-4xl mb-2">
+							<p className="mb-2 text-4xl font-bold text-center text-primary">
 								Walimatul 'Urs
 							</p>
-							<p className="font-bold text-primary text-center text-7xl">
+							<p className="font-bold text-center text-primary text-7xl">
 								Rani &<br />
 								Bimo
 							</p>
-							<div className="mt-10 flex gap-x-6 items-center">
+							<div className="flex items-center mt-10 gap-x-6">
 								<div className="border-[0.5px] border-primary w-12 h-fit"></div>
 								<span className="font-ogilvy">02.07.2024</span>
 								<div className="border-[0.5px] border-primary w-12 h-fit"></div>
 							</div>
-							<button className="bg-primary px-4 py-4 text-center text-white font-bold w-2/3 font-ogilvy mt-14 cursor-pointer">
+							<a
+								target="_blank"
+								href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=UNDANGAN+PERNIKAHAN+RANI+DAN+BIMO&dates=20240702T010000Z/20240702T150000Z&ctz=Asia/Jakarta"
+								className="w-2/3 px-4 py-4 font-bold text-center text-white cursor-pointer bg-primary font-ogilvy mt-14"
+							>
 								SAVE THE DATE
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
