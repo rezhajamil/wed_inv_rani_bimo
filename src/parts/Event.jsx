@@ -91,7 +91,7 @@ const Event = () => {
 			</div>
 			<Gallery />
 			<div className="w-full bg-[#F1F2F2] p-10">
-				<div className="w-full h-full px-8 py-4 bg-white">
+				<div className="w-full h-full px-8 py-8 bg-white">
 					<p className="text-[10px] leading-loose text-center font-ogilvy">
 						yang atas izin Allah akan dilaksanakan pada
 					</p>
@@ -119,6 +119,34 @@ const Event = () => {
 								Menit
 							</p>
 						</div>
+					</div>
+					<p className="my-6 text-xs text-center font-ogilvy">
+						<p className="text-primary">Akad Nikah</p>
+						<p className="">Pukul 08.00 - 10.00 WIB</p>
+						<p className="">Masjid Nurul Huda, Tanjung Gading</p>
+					</p>
+					<div className="flex justify-center w-full">
+						<a
+							target="_blank"
+							href="https://maps.app.goo.gl/uNpCxrDCMpQdpc7u7"
+							className="inline-block w-2/3 px-6 py-2 mx-auto text-sm font-bold text-center text-white cursor-pointer bg-primary font-ogilvy "
+						>
+							CEK LOKASI
+						</a>
+					</div>
+					<p className="my-6 mt-10 text-xs text-center font-ogilvy">
+						<p className="text-primary">Resepsi</p>
+						<p className="">Pukul 11.00 - 22.00 WIB</p>
+						<p className="">Gedung MPH, Tanjung Gading</p>
+					</p>
+					<div className="flex justify-center w-full">
+						<a
+							target="_blank"
+							href="https://maps.app.goo.gl/azJNTE3BXT6pWz7C8"
+							className="inline-block w-2/3 px-6 py-2 mx-auto text-sm font-bold text-center text-white cursor-pointer bg-primary font-ogilvy "
+						>
+							CEK LOKASI
+						</a>
 					</div>
 				</div>
 			</div>

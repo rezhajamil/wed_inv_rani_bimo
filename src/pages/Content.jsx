@@ -1,6 +1,8 @@
 import Cover from "@/parts/Cover";
 import Banner from "@/parts/Banner";
 import Event from "@/parts/Event";
+import Ucapan from "@/parts/Ucapan";
+import Thanks from "@/parts/Thanks";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 
@@ -21,6 +23,8 @@ const Content = () => {
 				<>
 					<Banner />
 					<Event />
+					<Ucapan />
+					<Thanks />
 				</>
 			) : (
 				<Cover />

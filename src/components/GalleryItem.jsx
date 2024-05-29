@@ -5,7 +5,7 @@ const GalleryItem = ({ image, fade }) => {
 	AOS.init();
 	return (
 		<div
-			className="relative w-full overflow-hidden cursor-pointer rounded-[14px] group"
+			className="relative w-full overflow-hidden cursor-pointer group"
 			data-aos={`fade-${fade}`}
 			data-aos-delay="50"
 			data-aos-duration="1000"
