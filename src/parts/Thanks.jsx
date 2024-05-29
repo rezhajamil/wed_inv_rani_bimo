@@ -15,7 +15,7 @@ const Thanks = () => {
 							Atas kehadirannya, kami ucapkan terima kasih.
 						</p>
 						<p className="mt-4 text-sm text-center font-ogilvy">
-							<span className="text-xs text-primary">Kami yang berbahagia</span>{" "}
+							<span className="text-xs text-primary">Kami yang berbahagia</span>
 							<br />
 							Keluarga Besar Sarman & Tasminy <br />
 							Keluarga Besar Azwar Fitrianto & Evi Susanti
