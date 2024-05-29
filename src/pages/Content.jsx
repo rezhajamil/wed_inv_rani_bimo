@@ -19,7 +19,7 @@ const Content = () => {
 	const isCoverHidden = useSelector((state) => state.isCoverHidden);
 	return (
 		<>
-			{!isCoverHidden ? (
+			{isCoverHidden ? (
 				<>
 					<Banner />
 					<Event />

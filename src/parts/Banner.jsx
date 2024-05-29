@@ -1,7 +1,7 @@
 const Banner = () => {
 	return (
 		<>
-			<div className="h-screen p-4 bg-primary">
+			<div className="h-screen p-4 bg-primary fade-in">
 				<div className="w-full h-full bg-white">
 					<div className="relative">
 						<img
